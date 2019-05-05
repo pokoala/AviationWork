@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">AirWayPlan</string>
+    <string name="title_activity_fragment__main">Fragment_Main</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="title_add_plan">首页</string>
+    <string name="title_plan">行程</string>
+    <string name="title_user">用户</string>
+</resources>
