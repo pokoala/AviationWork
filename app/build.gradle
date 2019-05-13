@@ -26,4 +26,10 @@ dependencies {
     testImplementation 'junit:junit:4.12'
     androidTestImplementation 'com.android.support.test:runner:1.0.2'
     androidTestImplementation 'com.android.support.test.espresso:espresso-core:3.0.2'
+    //拼音
+    implementation 'com.belerweb:pinyin4j:2.5.0'
+    //gson
+    implementation 'com.google.code.gson:gson:2.8.5'
+    //高德地图定位
+    implementation 'com.amap.api:location:latest.integration'
 }
