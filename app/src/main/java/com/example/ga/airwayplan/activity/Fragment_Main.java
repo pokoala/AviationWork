@@ -52,7 +52,7 @@ public class Fragment_Main extends AppCompatActivity implements ViewPager.OnPage
         viewPager.setCurrentItem(0);
     }
 
-    public void initView(){
+    protected void initView(){
         viewPager = (NoScrollViewPager) findViewById(R.id.viewPage);
         viewPager.addOnPageChangeListener(this);
         viewPager.setNoScroll(true);
