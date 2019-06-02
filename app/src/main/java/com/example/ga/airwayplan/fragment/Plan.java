@@ -18,6 +18,10 @@ import com.example.ga.airwayplan.R;
 import com.example.ga.airwayplan.Routing;
 import com.example.ga.airwayplan.activity.Fragment_Main;
 import com.example.ga.airwayplan.adapter.PlanAdapter;
+import com.example.ga.airwayplan.bean.CityBean;
+
+import org.litepal.LitePal;
+import org.litepal.crud.LitePalSupport;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -67,11 +71,9 @@ public class Plan extends Fragment {
     }
 
     private void initData(){
+        List<CityBean> cityBeanyList = LitePal.findAll(CityBean.class);
         for (int i = 0;i<10;i++){
-            Routing routing1 = new Routing();
-            routing1.setPlace("ddddd"+i);
-            routing1.setTime("15315"+i);
-            routingList.add(routing1);
+
         }
 
     }
